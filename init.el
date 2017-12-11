@@ -332,6 +332,14 @@ you should place your code here."
 	(setq org-refile-targets
 	            '((nil :maxlevel . 1)
 		              (org-agenda-files :maxlevel . 1)))
+
+  (custom-set-variables
+    ;; hide done task
+    '(org-agenda-skip-deadline-if-done t)
+    ;; '(org-agenda-skip-deadline-prewarning-if-scheduled t)
+    '(org-agenda-skip-scheduled-if-done t)
+  )
+
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
