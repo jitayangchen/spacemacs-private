@@ -320,11 +320,11 @@ you should place your code here."
 	(global-set-key "\C-ca" 'org-agenda)
 
 	;; 设置默认 Org Agenda 文件目录
-	(setq org-agenda-files '("~/Documents/gtd"))
+	(setq org-agenda-files '("~/Dropbox/gtd"))
 
 	;; set org-capture-templates
 	(setq org-capture-templates
-	            '(("t" "Todo" entry (file+headline "~/Documents/gtd/inbox.org" "Inbox")
+        '(("t" "Todo" entry (file+headline "~/Dropbox/gtd/inbox.org" "Inbox")
 		                "* TODO [#B] %?\n  %i\n"
 				         :empty-lines 0)))
 
