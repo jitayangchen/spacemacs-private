@@ -343,6 +343,8 @@ you should place your code here."
   ;; 设置星期为英文(Linux)
   ;; (set-locale-environment "en_US.UTF-8")
 
+  ;; 设置默认目录
+  (setq default-directory "~/" )
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
